@@ -1,0 +1,12 @@
+#!/bin/bash
+build() {
+    add_module asus_nb_wmi
+    add_runscript
+}
+
+help() {
+    cat <<HELPEOF
+Turns on the keyboard backlight on the ASUS ux390ua notebook.
+
+HELPEOF
+}
